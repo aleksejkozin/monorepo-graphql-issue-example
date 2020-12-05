@@ -1,0 +1,19 @@
+{
+  "name": "root",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:aleksejkozin/monorepo-graphql-issue-example.git",
+  "author": "Aleksey Kozin <aleksey.kozin@zoftify.com>",
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": []
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
+
